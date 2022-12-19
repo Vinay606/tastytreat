@@ -1,0 +1,863 @@
+nav
+{
+    width: 100%;
+    height:50px;
+    padding:35px 0px; 
+    color:black;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgb(245, 241, 241);
+}
+
+.logo{
+font-family: 'Questrial', sans-serif;
+font-weight:bold;
+font-style:normal;
+font-size:1.75em;
+padding-left:7ch;
+padding-top:1ch;
+}
+span
+{
+    color:orange;
+}
+.links a{
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    font-size: 2.2ch;
+    font-family: 'Questrial', sans-serif;
+    padding-left:1.5ch;
+    margin:2ch;
+} 
+
+button
+{
+font-family: 'Questrial', sans-serif;
+background-color:orange;
+padding:9px 20px;
+border:1.7px solid black;
+border-radius: 30px;
+font-weight:600;
+font-size:1.1em;
+}
+button:hover{
+    background-color:white;
+    transform:scale(1.2);
+    transition:all 0.3s ease 0s;
+}
+.links a:hover{
+ color:orange;
+ cursor:pointer;
+ transform:scale(2);
+ transition:all 0.3s ease 0s;
+ 
+}
+img{
+  position:absolute; 
+  padding-left:3px; 
+}
+
+.maincontentimg1
+{
+    position:absolute;
+    top:23ch;
+    right:9ch;
+    border-radius: 2px;
+
+}
+.main #maincontent
+{
+color:orange;
+margin: 2ch;
+font-family:'Questrial', sans-serif;
+font-size: 3.5em;
+font-style:normal;
+padding-left:20px;
+font-weight:200;
+padding-top:50px;
+}
+pre{
+    font-family:'Questrial', sans-serif;
+    font-weight:700;
+    font-style:italic;
+    font-size: 1.35em;
+    text-align: left;
+    
+}
+.icons a
+{
+    
+    display:list-item;
+    padding-top: 40px;
+    position: relative;
+    padding-left: 0.5ch;
+    background-color:orange;
+    width:8ch;
+    height:5ch;
+    border-top-right-radius: 8.5px;
+    border-bottom-right-radius:8.5px;
+    
+}
+
+.aboutimg
+{
+    padding:15ch 0 0 20ch;
+}
+.abouttext
+{
+    padding: 12ch 0 0 55ch;
+    font-family:'Questrial', sans-serif;
+    font-size:22px;
+    text-align: left;
+    color:orange;
+}
+
+.abouttext .abouthead1
+{
+font-family:'Questrial', sans-serif;
+color:black;
+font-size:35px;
+font-weight:650;
+
+}
+.abouttext .abouthead2
+{
+font-family:'Questrial', sans-serif;
+color:black;
+font-size:35px;
+font-weight:650;
+
+
+}
+.aboutinfo
+{
+    color:black;
+    padding-right:15ch;
+    letter-spacing:0.7px
+}
+.menu
+{
+    font-family:'Questrial', sans-serif;
+    padding: 20ch 10ch 0ch 5ch; 
+    text-align:center;
+    font-size:20px;
+    color:orange;
+}
+.menunames 
+{
+    display:flex;
+    justify-content:space-evenly;
+    font-size:30px;
+    color:black;
+    padding-left:20px;
+    font-family:'Questrial', sans-serif;
+    
+
+}
+.menunames a{
+    color:black;
+    border-radius: 5px;
+    text-decoration: none;
+ 
+}
+.menunames a:hover{
+   color:orange;
+   transform:scale(1.2);
+   transition:all 0.5s ease 0s;
+  
+}
+#specail
+{
+    position:absolute;
+    margin:0.5px 0 0 25ch;
+    border-radius:5px;
+}
+#breakfast
+{
+    position:absolute;
+    margin:0.5px 0 0 65ch;
+    border-radius:5px;
+}
+#lunch
+{
+    position:absolute;
+    margin:0.5px 0 0 105ch;
+    border-radius:5px;
+}
+#dinner
+{
+    position:absolute;
+    margin:0.5px 0 0 142ch;
+    border-radius:5px;
+}
+.services
+{
+    padding-top:20ch;
+    padding-left:57.4ch;
+    font-size:20px;
+    font-weight:600px;
+    font-family:'Questrial', sans-serif;
+    color:orange;
+
+}
+
+.card1 h5
+{
+    font-family:'Questrial', sans-serif;
+    font-size:22px;
+    font-weight:600;
+    color:black;
+    padding-top:56px;
+}
+.card2 h5
+{
+    font-family:'Questrial', sans-serif;
+    font-size:22px;
+    font-weight:600;
+    color:black;
+    padding-top:56px;
+
+}
+.card3 h5
+{
+    font-family:'Questrial', sans-serif;
+    font-size:22px;
+    font-weight:600;
+    color:black;
+    padding-top:56px;
+}
+.box
+{
+display:flex;
+justify-content:space-around;
+padding-top:15px;
+
+}
+footer
+{
+    background-color:rgb(245, 241, 241);
+    width:100%;
+    height:max-content
+}
+#footerlogo
+{
+    padding-left:px;
+    padding-top:px;
+    
+}
+nav{
+    padding-top:8ch;
+}
+nav .logo{
+    padding-left:8ch;
+}
+#copyrightinfo
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    color:black;
+    margin:25px;
+    padding-left:20px;
+    padding-top:15px;
+
+}
+#footercontact
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:600;   
+    color:black;
+    padding-top:15px;
+
+}
+.footersocial
+{
+    display:flex;
+
+}
+.footersocial a
+{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-decoration:none;
+    background:orange;
+    border-radius:50%;
+    margin:18px 5px;
+    position:relative;
+    left:79.2ch;
+
+}
+.footersocial a:hover{
+    background:white;
+    transform:scale(1);
+    transition:all 0.3s ease ;
+}
+.contactpageheading
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:550;   
+    color:orange;
+    font-size:8ch;
+    text-align: center;
+    padding-top:10px;
+}
+.address
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'Questrial', sans-serif;
+    padding-left:0px;
+    font-weight:600;
+    margin-left:0%;
+    width:50%;
+    
+}
+.officeaddress
+{
+    padding-left:27ch;
+}
+.mobile
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'Questrial', sans-serif;
+    padding-left:0px;
+    font-weight:600;
+    margin-left:0%;
+    width:50%;
+    padding-top:10px;
+}
+.mobileno
+{
+    padding-left:27ch;
+}
+.email
+{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-family:'Questrial', sans-serif;
+    padding-left:0px;
+    font-weight:600;
+    margin-left:0%;
+    width:50%;
+}
+.emailinfo
+{
+    padding-left:35ch;
+    padding-top:2ch;
+}
+.contactpagebody
+{
+    position:relative;
+    margin-top:10px;
+    width:20%;
+    font-family:'Questrial', sans-serif;
+    font-size:30px;
+    font-weight:600;
+    color:black;
+    text-align:center;
+    margin-left:5ch;
+    letter-spacing: 2px;
+
+}
+#message 
+{
+    
+    margin-left:18ch;
+    width:40%;
+    height:10%;
+    border-color:grey;
+
+}
+#name 
+{
+    margin-left:18ch;
+    width:15%;
+    height:6%;
+    border-color:grey;
+    margin-top:5ch;
+}
+#emailbox {
+
+    margin-left:18ch;
+    width:15%;
+    height:6%;
+    border-color:grey;
+    margin-top:5ch;
+
+}
+#sendbutton
+{
+    margin-top:5ch;
+    margin-left:12ch;
+    width:10%;
+    height:6%;
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:20px;
+    color:black;
+    border-color: orange;
+    border-radius:3.5px;
+    
+
+}
+#sendbutton:hover{
+    color:orange;
+    transform:scale(1.2);
+    transition:all 0.3s ease ;
+
+}
+.addressdivision
+{
+    position:absolute;
+    top:40ch;
+    left:120ch;
+}
+#bookingname
+{
+    margin-left:27ch;
+    width:15%;
+    height:6%;
+    border-color:orange;
+    margin-top:5ch;
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:14px;
+}
+#bookingmailid
+{
+    margin-left:18ch;
+    width:15%;
+    height:6%;
+    border-color:orange;
+    margin-top:5ch;
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:14px;
+}
+#bookingno
+{
+
+    margin-left:18ch;
+    width:15%;
+    height:6%;
+    border-color:orange;
+    margin-top:5ch;
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:14px;
+}
+#select 
+{
+    margin-left:30ch;
+    margin-top:10ch;
+    font-family:'Questrial', sans-serif;
+    font-weight:500;
+ 
+
+
+}
+#selectbreakfast
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:500;
+    color:black;
+    font-size:25px;
+}
+#selectlunch
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:500;
+    color:black;
+    font-size:25px;
+}
+#selectdinner
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:500;
+    color:black;
+    font-size:25px;
+}
+
+#booksend
+{
+    font-family:'Questrial', sans-serif;
+
+    margin-left:70ch;
+    margin-top:10ch;
+    padding:20px 30px
+}
+#sendbuttonbook
+{
+    margin-top:7ch;
+    margin-left:59ch;
+    width:10%;
+    height:6%;
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:20px;
+    color:black;
+    border-color: orange;
+    border-radius:3.5px;
+    
+}
+#sendbuttonbook:hover{
+    color:orange;
+    transform:scale(1.3);
+    transition:all 0.3s ease ;
+
+}
+#chef1
+{
+    
+    border-radius:8px;
+    margin:10ch 0 0 10ch;
+}
+#chef1info
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:34px;   
+    margin:6.5ch 0 0 28ch;
+    
+   
+}
+.chef1info
+{
+    font-family:'Questrial', sans-serif;
+    margin:5.5ch 0 0 37.5ch;
+    width:40%;
+    font-size:25px;   
+
+}
+#chef2
+{
+    width:25%;
+    height:325px;
+    border-radius:8px;
+    margin:28ch 0 0 125ch;
+    
+}  
+.chef2info
+{
+    font-family:'Questrial', sans-serif;
+    width:40%;
+    font-size:25px;  
+    padding-left:20ch; 
+    padding-top:35px;
+
+} 
+
+#chef2info
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:34px;   
+    margin:14ch 0 0 14.75ch;
+    
+   
+}
+#chef3info
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:34px;   
+    margin:8.5ch 0 0 28ch;
+    
+   
+}
+.chef3info
+{
+    font-family:'Questrial', sans-serif;
+    margin:5.5ch 0 0 37.5ch;
+    width:40%;
+    font-size:25px;   
+
+}
+#chef3
+{
+    
+    border-radius:8px;
+    margin:14ch 0 0 10ch;
+}
+
+
+#chef4
+{
+    width:500;
+    height:350px;
+    border-radius:8px;
+    margin:28ch 0 0 115ch;
+    
+}  
+.chef4info
+{
+    font-family:'Questrial', sans-serif;
+    width:40%;
+    font-size:25px;  
+    padding-left:20ch; 
+    padding-top:35px;
+
+} 
+
+#chef4info
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:34px;   
+    margin:14ch 0 0 14.75ch;
+}
+.pageheader
+{
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:34px;  
+    text-align: center;
+}
+.special
+{
+
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:34px;  
+    text-align: center;
+    padding-top:20px;
+    color:orange;
+}
+.specialitem1
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:25ch;
+
+
+}
+.item1img
+{
+    padding-left:55px;
+    border-radius:80%;
+}
+.specialitem2
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:63ch;
+}
+.specialitem2a
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:55ch;
+}
+.item2img
+{
+    padding-left:20px;
+    border-radius:80%;
+    margin:10px 0 0 140ch;
+}
+.specialitem3
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:25ch;
+
+
+}
+.item3img
+{
+    padding-left:55px;
+    border-radius:100%;
+}
+.specialitem4
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:61ch;
+}
+.specialitem4a
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:70ch;
+}
+.item4img
+{
+    padding-left:20px;
+    border-radius:80%;
+    margin:10px 0 0 140ch;
+}
+.specialitem5
+{  
+    
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:25ch;
+
+
+}
+.item5img
+{
+   padding-left:55px;
+   border-radius:100%;
+}
+.specialitem6
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:61ch;
+}
+.specialitem6a
+{  
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:70ch;
+}
+.item6img
+{
+    padding-left:20px;
+    border-radius:80%;
+    margin:10px 0 0 140ch;
+}
+.specialitem7
+{  
+    
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:25ch;
+
+
+}
+.item7img
+{
+   padding-left:55px;
+   border-radius:100%;
+}
+.specialitem8
+{ 
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:61ch;
+
+
+}
+.specialitem8a
+{ 
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:57ch;
+
+
+}
+.item8img
+{
+    padding-left:20px;
+    border-radius:80%;
+    margin:10px 0 0 140ch;
+}
+.specialitem9
+{  
+    
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:25ch;
+
+
+}
+.item9img
+{
+   padding-left:55px;
+   border-radius:100%;
+}
+.specialitem10
+{ 
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:61ch;
+}
+.specialitem10a
+{ 
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:70ch;
+}
+.specialitem10b
+{ 
+     font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:25px;  
+    padding-top:70px;
+    color:black;
+    padding-left:64.5ch;
+}
+.item10img
+{
+    padding-left:20px;
+    border-radius:80%;
+    margin:10px 0 0 140ch;
+}
+.breakfastmenu
+{
+    padding-top:50px;
+}
+.breakfastheading
+{
+
+    font-family:'Questrial', sans-serif;
+    font-weight:600;
+    font-size:34px;  
+    text-align: center;
+    padding-top:20px;
+    letter-spacing: 1.5px;
+}
